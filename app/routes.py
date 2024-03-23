@@ -4,7 +4,7 @@ import joblib
 app = Flask(__name__)
 
 # Load the trained model
-model = joblib.load('models/trained_model.pkl')
+model = joblib.load('model/Analysis.ipynb') 
 
 @app.route('/')
 def index():
