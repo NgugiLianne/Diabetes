@@ -4,7 +4,7 @@ import joblib
 app = Flask(__name__)
 
 # Load the trained model
-model = joblib.load('C:\Users\HP\Documents\python projects\Diabetes\Model\Analysis.ipynb')
+model = joblib.load('models/trained_model.pkl')
 
 @app.route('/')
 def index():
