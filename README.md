@@ -53,7 +53,7 @@ To run the model and start making predictions:
    ```python
    from model import DiabetesPredictor
    predictor = DiabetesPredictor()
-   predictor.load_data('path_to_your_data.csv')
+   predictor.load_data('Model/diabetes (2).csv')
    ```
 
 3. Train the model:
